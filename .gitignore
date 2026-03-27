@@ -13,4 +13,5 @@ dist/
 # Ignore config.txt file that contain configs to test
 config.txt
 
-test.jse-ticket-sy-firebase-adminsdk.json
+test.js
+e-ticket-sy-firebase-adminsdk.json
