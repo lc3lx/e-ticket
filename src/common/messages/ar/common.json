@@ -1,0 +1,41 @@
+{
+  "common": {
+    // User:
+    "loginSuccess": "تم تسجيل دخول المستخدم بنجاح",
+    "registerSuccess": "تم تسجيل المستخدم بنجاح",
+    "userFound": "تم العثور على المستخدم بنجاح",
+    "createUser": "تم إنشاء المستخدم بنجاح.",
+    "readUser": "تم استرجاع بيانات المستخدم بنجاح.",
+    "updateUser": "تم تحديث المستخدم بنجاح.",
+    "deleteUser": "تم حذف المستخدم بنجاح.",
+    "sortUser": "تم ترتيب المستخدمين بنجاح.",
+    "uploadUser": "تم رفع صورة الملف الشخصي للمستخدم بنجاح.",
+    "taskDone": "تم إنجاز المهمة بنجاح.",
+
+    // Notifications:
+    "approveEventTitle": "تمت الموافقة على الحدث.",
+    "approveEventBody": "تمت الموافقة على الحدث الخاص بك وهو ظاهر الآن للمستخدمين على تطبيق E-Ticket.",
+
+    "declineEventTitle": "تم رفض الحدث.",
+    "declineEventBody": "تم رفض الحدث الخاص بك، لمزيد من المعلومات يرجى التواصل معنا.",
+
+    "suspendEventTitle": "تم تعليق الحدث الخاص بك.",
+    "suspendEventBody": "تم تعليق الحدث الخاص بك، لمزيد من المعلومات يرجى التواصل معنا.",
+
+    "unSuspendEventTitle": "الحدث الخاص بك مباشر الآن.",
+    "unSuspendEventBody": "الحدث الخاص بك لم يعد معلقًا.",
+
+    "adminCancelBookingTitle": "تم إلغاء الحجز الخاص بك.",
+    "adminCancelBookingBody": "تم إلغاء الحجز الخاص بك، لمزيد من المعلومات يرجى التواصل معنا.",
+
+    "supervisorCancelBookingTitle": "تم إلغاء الحجز الخاص بك.",
+    "supervisorCancelBookingBody": "تم إلغاء الحجز الخاص بك من قبل مشرف الحدث.",
+
+    "approveBookingTitle": "تمت الموافقة على الحجز الخاص بك.",
+    "approveBookingBody": "تمت الموافقة على الحجز الخاص بك من قبل مشرف الحدث.",
+
+    //OTP:
+    "sendOTP": "رمز الأمان الخاص بك هو: {{Code}}",
+    "sendSupervisorSignUpMessage": "حسابك هو: {{supervisor}}\nكلمة المرور: {{supervisorPassword}}\nمستخدم الماسح: {{scannerUser}}\nكلمة مرور مستخدم الماسح: {{scannerUserPassword}}"
+  }
+}

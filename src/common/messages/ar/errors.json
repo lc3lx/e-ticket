@@ -1,0 +1,266 @@
+{
+  "error": {
+    // Users:
+    "loginFailure": "يرجى المحاولة مرة أخرى لاحقًا.",
+    "loginError": "حدث خطأ أثناء تسجيل دخول المستخدم.",
+    "invalidCredentials": "بيانات الاعتماد غير صحيحة.",
+    "accessForbidden": "الوصول ممنوع. ليس لديك الإذن للوصول إلى هذا المسار.",
+    "userNotFound": "المستخدم غير موجود.",
+    "usersNotFound": "لا يوجد مستخدمون حتى الآن.",
+    "phoneNumberNotValid": "رقم الهاتف غير صالح.",
+    "phoneNumberExist": "رقم الهاتف الذي أدخلته مستخدم بالفعل.",
+    "phoneNumberNotCorrect": "رقم هاتفك غير صحيح.",
+    "phoneNumberEmpty": "يرجى ملء الحقل المطلوب التالي: رقم الهاتف.",
+    "phoneNumberEmptyModel": "رقم الهاتف لا يمكن أن يكون فارغًا.",
+    "phoneNumberTypeValidation": "يجب أن يحتوي رقم الجوال على أرقام فقط.",
+    "userNotRegistered": "رقم الهاتف الذي أدخلته غير مسجل حتى الآن، يرجى إنشاء حساب وتسجيل الدخول.",
+    "birthDateEmty": "لا يمكن أن يكون تاريخ الميلاد فارغًا.",
+    "birthDateValidation": "يجب أن يكون تاريخ الميلاد تاريخًا صالحًا.",
+    "firstNameLength": "الحد الأدنى 2 حرف والحد الأدنى المطلوب هو 20 في الاسم الأول.",
+    "firstNameValidation": "يمكن أن يحتوي الاسم الأول على أحرف ومسافات فقط.",
+    "firstNameEmpty": "لا يمكن أن يكون الاسم الأول فارغًا.",
+    "lastNameLength": "الحد الأدنى 2 حرف والحد الأدنى المطلوب هو 20 في الاسم الأخير.",
+    "lastNameValidation": "يمكن أن يحتوي الاسم الأخير على أحرف ومسافات فقط.",
+    "lastNameEmpty": "لا يمكن أن يكون الاسم الأخير فارغًا.",
+    "normalUserProvinces": "يجب اختيار المحافظات المهتم بها.",
+    "normalUserEventsTypes": "يجب اختيار أنواع الأحداث المهتم بها.",
+    "tooYoung": "يجب أن تكون أكبر سناً لاستخدام هذه الخدمة. يرجى التحقق من الحد الأدنى للعمر والمحاولة مرة أخرى.",
+    "tooOld": "هذه الخدمة مخصصة للمستخدمين ضمن فئة عمرية معينة.",
+    "maleOrFemaleOnly": "يجب اختيار الجنس.",
+    "blockedAccount": "هذا الحساب محظور.",
+    "deactivatedAccount": "هذا الحساب معطل.",
+
+    // Token:
+    "invalidTokenIssuer": "مُصدر الرمز غير صالح.",
+
+    // Provines:
+    "provincesNotFound": "لا توجد محافظات حتى الآن.",
+
+    // Events:
+    "eventsNotFound": "لا توجد فعاليات حتى الآن.",
+    "eventNotFound": "لا يمكن العثور على هذا الحدث.",
+    "approveEvent": "تمت الموافقة على هذا الحدث بالفعل أو غير موجود.",
+    "Top10Events": "أفضل 10 فعاليات غير موجودة.",
+    "eventNameError": "يمكن أن يحتوي اسم الحدث على أحرف ومسافات فقط.",
+    "eventNameLengthError": "اسم الحدث لا يمكن أن يكون قصيرًا جدًا أو طويلًا جدًا.",
+    "eventNameEmptyError": "لا يمكن أن يكون اسم الحدث فارغًا.",
+    "eventMainPhotoMissing": "يرجى إضافة صورة رئيسية لحدثك.",
+    "eventStartDate": "يرجى إضافة تاريخ بدء الحدث.",
+    "validateEventStartDate": "لا يمكنك تعيين تاريخ بدء الحدث قبل اليوم.",
+    "applyToEventStartDate": "يرجى إضافة تاريخ بدء التقديم للحدث.",
+    "validateApplyToEventStartDate": "لا يمكنك تعيين تاريخ بدء الحدث اليوم او غداً او قبل ذلك.",
+    "eventEndDate": "يرجى إضافة تاريخ انتهاء الحدث.",
+    "validateEventEndDate": "يجب أن يكون تاريخ انتهاء الحدث بعد تاريخ بدء الحدث.",
+    "applyToEventEndDate": "يرجى إضافة تاريخ انتهاء التقديم للحدث.",
+    "validateApplyToEventEndDate": "يجب أن يكون تاريخ انتهاء التقديم بعد تاريخ بدء التقديم.",
+    "eventLocation": "يرجى إضافة موقع لحدثك.",
+    "eventProvince": "يرجى إضافة محافظة لحدثك.",
+    "ticketOptionEmpty": "يرجى إضافة خيارات التذاكر لحدثك.",
+    "eventSeatsValidation": "يجب أن يكون عدد المقاعد على الأقل 1.",
+    "eventDescriptionValidation": "يرجى إضافة وصف لحدثك.",
+    "eventTypeDescriptionValidation": "الحد الأدنى 3 أحرف والحد الأقصى 200 مطلوب في الوصف.",
+    "eventApprovedBefore": "لديك هذا الحدث مسبقًا وهو معتمد.",
+    "eventPreviousUpdateRequest": "لديك طلب سابق لتحديث هذا الحدث.",
+    "cannotUpdateEvent": "لا يمكن تحديث هذا الحدث.",
+    "cannotDeleteStartedEvent": "لا يمكنك حذف حدث قد بدأ.",
+    "priceNotZero": "يجب أن يكون السعر أكبر من 0.",
+    "UpdateEventAfterEnd": "لا يمكن تعديل الحدث بعد انتهائه.",
+    "UpdateEventAfterEndReservation": "لا يمكن تعديل الحدث بعد انتهاء فترة الحجز.",
+    "UpdateEventAfterStartReservation": "لا يمكن تعديل الحدث بعد بدء فترة الحجز.",
+    "UpdateEventHasPreviousRequest": "الفعالية لديها طلب تعديل سابق.",
+    "eventEndAlready": "هذا الحدث قد انتهى بالفعل.",
+    "eventDeleteStartAlready": "لا يمكن حذف الأحداث التي بدأت.",
+    "eventUpdateAfterDecline": "لا يمكن تعديل الحدث بعد رفضه.",
+    "eventUpdateAfterApprove": "لا يمكن تعديل الحدث بعد الموافقة عليه.",
+    "eventDescriptionLengthValidation": "يجب أن يكون طول حقل الوصف بين 1 و500 حرف.",
+    "eventTypeRequired": "حقل نوع الحدث مطلوب.",
+    "eventExist": "هذا الحدث موجود بالفعل.",
+    "startApplyDateNotComeYet": "تاريج بداية الحجز للحدث لم يبدأ بعد.",
+    "endApplyDateIsOver": "انتهى وقت الحجز على هذا الحدث",
+    "eventApplyAndStartDuration": "وقت نهاية الحجز يجب أن يكون قبل بداية الحدث ب 24 ساعة على الأقل.",
+    "eventApplyDuration": "فترة الحجز يجب أن تكون 24 ساعة على الأقل.",
+
+    // Images:
+    "processImage": "حدث خطأ أثناء معالجة الصورة.",
+    "notImageFile": "ليست صورة. يسمح فقط بملفات JPEG و PNG و JPG.",
+
+    // Dashboard:
+    "NotValidEmail": "يجب أن يكون البريد الإلكتروني من نطاق تطبيق التذاكر الإلكترونية.",
+    "emailExist": "تم تسجيل هذا البريد الإلكتروني بالفعل، يرجى محاولة تسجيل الدخول.",
+    "emailNotFound": "لم يتم العثور على هذا البريد الإلكتروني.",
+    "emailFieldEmpty": "يرجى ملء الحقل المطلوب التالي: البريد الإلكتروني.",
+    "passwordFieldEmpty": "يرجى تعبئة حقل كلمة المرور.",
+    "oldPasswordFieldEmpty": "يرجى تعبئة حقل كلمة المرور القديمة.",
+    "passwordConfirmFieldEmpty": "يرجى تعبئة الحقل المطلوب: تأكيد كلمة المرور.",
+    "adminAccountNotExist": "هذا الحساب غير موجود.",
+    "adminNotFound": "لم يتم العثور على حساب المشرف.",
+    "adminsNotFound": "لا يوجد مشرفون حتى الآن.",
+    "IncorrectEmailOrPassword": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+    "incorrectPassword": "كلمة المرور غير صحيحة.",
+    "passwordsNotMatch": "يجب أن تكون كلمة المرور وتأكيدها متطابقتين.",
+    "CannotCreateCEO": "لا يمكنك إنشاء حساب مدير تنفيذي بصلاحياتك الحالية.",
+    "adminIdRequired": "المعرف مطلوب",
+    "CannotUpdateCEO": "لا يمكنك تحديث بيانات المدير التنفيذي بصلاحياتك الحالية.",
+    "CannotDeleteYourAccount": "لا يمكنك حذف حسابك الشخصي.",
+    "CannotDeleteCEO": "لا يمكنك حذف المدير التنفيذي بصلاحياتك الحالية.",
+
+    // Supervisor:
+    "notValidUserName": "اسم المستخدم غير صالح.",
+    "supervisorPasswordEmpty": "لا يمكن أن تكون كلمة المرور فارغة.",
+    "supervisorProvinceEmpty": "لا يمكن أن تكون المحافظة فارغة.",
+    "supervisorLocationEmpty": "لا يمكن أن يكون الموقع فارغًا.",
+    "supervisorWorkInfoEmpty": "لا يمكن أن تكون معلومات العمل فارغة.",
+    "supervisorEmptyBody": "لا يمكنك إرسال طلب فارغ.",
+    "getAllSupervisors": "حدث خطأ أثناء الحصول على جميع المشرفين.",
+    "getSupervisor": "لم يتم العثور على المشرف.",
+    "IncorrectSupervisorPassword": "كلمة المرور غير صحيحة.",
+    "supervisorNotFound": "لم يتم ايجاد حساب المشرف.",
+    "supervisorWorkType": "يجب تحديد نوع العمل.",
+    "updateSupervisor": "لا يمكن تحديث حساب المشرف هذا.",
+    "deleteSupervisorHaveEvents": "لا يمكن حذف مشرف لديه فعاليات نشطة.",
+    "workDocument": "يجب إضافة وثيقة العمل.",
+    "PreviousUpdateRequest": "لديك بالفعل طلب تحديث ملف شخصي سابق.",
+    "incorrectOldPassword": "كلمة المرور القديمة غير صحيحة.",
+
+    // Booking:
+    "emptyBooking": "لا توجد حجوزات حتى الآن.",
+    "BookingNotFound": "لا يمكن العثور على هذا الحجز.",
+    "bookingCanceledBefore": "تم إلغاء هذا الحجز مسبقًا.",
+    "BookingNotPending": "هذا الحجز ليس قيد الانتظار، تم دفعه أو إلغاؤه مسبقًا.",
+    "BookingIsPaidSupervisor": "تم دفع الحجز، لا يمكنك إلغاءه، تواصل مع فريق الدعم.",
+    "invalidAmmount": "يجب أن يتطابق عدد التذاكر مع عدد الأسماء.",
+    "notEnoughTickets": "لا توجد تذاكر كافية: متاح فقط {{available}} تذكرة{{plural}}، لكنك طلبت {{requested}} تذكرة{{pluralRequested}}.",
+    "bookingPaymentBeforeApprove": "يجب الموافقة على الحجز أولًا.",
+    "paymentAlreadyProcessed": "تمت معالجة الدفع بالفعل.",
+    "BookingCreationFailed": "لا يمكن إنشاء هذا الحجز.",
+    "PaymentProcessingFailed": "لا يمكن معالجة الدفع.",
+    "womenOnly": "هذا الحدث للسيدات فقط.",
+    "menOnly": "هذا الحدث للرجال فقط.",
+    "bookIdRequired": "معرّف الحجز مطلوب.",
+
+    // Ticket:
+    "emptyTicket": "لا توجد تذاكر حتى الآن.",
+    "ticketAlreadyInvalid": "هذه التذكرة غير صالحة بالفعل.",
+    "ticketNotFound": "لا يمكن العثور على هذه التذكرة.",
+    "usernameEmpty": "اسم المستخدم لا يمكن أن يكون فارغًا.",
+    "usernameFormat": "يجب أن يكون اسم المستخدم من 2 إلى 50 حرفًا، بالحروف الإنجليزية أو العربية والمسافات فقط.",
+
+    // Passwords:
+    "PasswordsNotMatched": "كلمة المرور الخاصة بك لا تطابق حقل تأكيد كلمة المرور.",
+    "verifyPassword": "يجب أن تحتوي كلمة المرور الخاصة بك على أحرف صغيرة وكبيرة وأرقام ورموز، ويجب أن تكون على الأقل 10 أحرف.",
+    "missingPasswordField": "تفتقد إلى حقل كلمة المرور.",
+    "passwordLengthError": "يجب أن تكون كلمة المرور بين 10 و 25 حرفًا.",
+
+    // MiddleWares:
+    "noPermission": "ليس لديك إذن للوصول إلى هذا المورد.",
+
+    // OTP:
+    "OTPLength": "يجب أن يكون الرمز المكون من 6 أرقام.",
+    "OTPValidation": "الرمز الخاص بك غير صحيح.",
+    "validationError": "هناك خطأ غير معروف في التحقق.",
+    "invalidToken": "الرمز غير صالح، يرجى تسجيل الدخول مرة أخرى.",
+    "tokenExpired": "انتهت صلاحية الجلسة الخاصة بك، يرجى تسجيل الدخول مرة أخرى.",
+    "OTPWaitTime": "يرجى الانتظار قبل طلب رمز تحقق آخر.",
+    "CannotSendOTP": "لا يمكن ارسال رمز التحقق.",
+    "invalidOTPCode": "الكود المدخل غير صحيح.",
+    "OTPCodeExpired": "الكود المدخل منتهي الصلاحية.",
+    "OTPNotFound": "رمز التحقق غير موجود.",
+
+    // Complains:
+    "emptyComplains": "لا توجد شكاوى حتى الآن.",
+    "emptyComplainsForUser": "لا توجد شكاوى لهذا المستخدم حتى الآن.",
+    "emptyComplainsForEvent": "لا توجد شكاوى لهذا الحدث حتى الآن.",
+    "emptyComplainsOtherType": "لا يمكنك ترك الشكوى فارغة.",
+    "duplicateComplain": "لا يمكنك تقديم أكثر من شكوى واحدة لكل حدث.",
+
+    //Complain Types:
+    "emptyComplainTypes": "لم يتم العثور على نوع الشكوى.",
+
+    //Event Types:
+    "emptyEventTypes": "لم يتم العثور على نوع الحدث.",
+
+    // Favourite:
+    "emptyFavourite": "لا يوجد شيء في قائمة المفضلة حتى الآن.",
+
+    // Suggestions:
+    "emptySuggestions": "لا توجد اقتراحات حتى الآن.",
+    "duplicateSuggestions": "لا يمكنك تقديم أكثر من اقتراح واحد لكل حدث.",
+
+    // Agent:
+    "agentNameRequired": "يجب أن يحتوي الوكيل على اسم.",
+    "agentNameMinLength": "يجب أن يكون اسم الوكيل على الأقل 2 أحرف.",
+    "agentNameMaxLength": "يجب أن لا يزيد اسم الوكيل عن 50 حرفًا.",
+    "agentNameRegex": "يمكن أن يحتوي اسم الوكيل على أحرف ومسافات فقط.",
+    "agentProvinceRequired": "المحافظة مطلوبة للوكيل.",
+    "agentLocationRequired": "الموقع مطلوب للوكيل.",
+    "agentMobileNumberRequired": "رقم الجوال مطلوب للوكيل.",
+    "agentExists": "يوجد بالفعل وكيل بهذا الرقم.",
+    "agentUpdateFailed": "لا يمكن تحديث هذا الوكيل.",
+    "agentDeleteFailed": "لا يمكن حذف هذا الوكيل.",
+    "agentCreationFailed": "لا يمكن إنشاء هذا الوكيل.",
+
+    // Scanner User:
+    "scannerNameIsEmpty": "اسم مستخدم الماسح لا يمكن أن يكون فارغًا.",
+    "passwordIsEmpty": "كلمة مرور مستخدم الماسح لا يمكن أن تكون فارغة.",
+    "scannerUserserNotRegistered": "هذا المستخدم الماسح غير مسجل بعد.",
+    "DeactivatedScannerUser": "هذا الحساب معطل",
+    "scannerUserPasswordEmpty": "حقل كلمة المرور لمستخم المسح لا يمكن أن يكون فارغاً.",
+    "IncorrectScannerPassword": "كلمة المرور غير صحيحة.",
+
+    // Notifications:
+    "NotificationTitle": "عنوان الإشعار مطلوب.",
+    "NotificationBody": "محتوى الإشعار مطلوب.",
+    "emptyNotifications": "لا يوجد إشعارات لديك في الوقت الحالي.",
+
+    // Others:
+    "pageNotFound": "الصفحة غير موجودة ..!",
+    "someThingWrong": "حدث خطأ ما.",
+    "messageReply": "انتظر الرد قبل إرسال رسالة أخرى.",
+
+    // Rate Event:
+    "rateEventValues": "تقييم الحدث يجب أن يكون بين 1 و 5 فقط.",
+
+    // Discount Code:
+    "usageLimitMin": "لا يمكن وضع حد استخدام أقل من الواحد.",
+    "discountCodeMaxUsageReached": "وصل رمز الخصم إلى الحد الأقصى للاستخدام.",
+    "discountCodeNotFound": "لا يمكن العثور على رمز الخصم",
+    "startFromFuture": "يجب ألا يكون تاريخ بدء رمز الخصم قبل الوقت الحالي.",
+    "discountCodeRequired": "رمز الخصم مطلوب.",
+    "discountCodeLength": "يجب أن يكون طول رمز الخصم بين 3 و20 حرفاً.",
+    "discountCodeFormat": "يمكن أن يحتوي رمز الخصم على أحرف وأرقام وهذه الرموز فقط @ # $ % &.",
+    "discountValueMin": "الحد الأدنى لقيمة الخصم هو 1.",
+    "discountPercentRange": "يجب أن تكون نسبة الخصم بين 1 و100.",
+    "endAtAfterStartFrom": "يجب أن يكون تاريخ انتهاء رمز الخصم بعد تاريخ البدء.",
+
+    // Payment:
+    "createInvoiceError": "حدث خطأ أثناء إنشاء الفاتورة",
+    "getInvoiceError": "حدث خطأ أثناء جلب الفاتورة",
+    "initPaymentError": "حدث خطأ أثناء تهيئة الدفع",
+    "confirmPaymentError": "حدث خطأ أثناء تأكيد الدفع",
+    "paymentMethodNotFound": "لا توجد طريقة دفع بهذا الاسم",
+    "paymentNotInitialized": "لم يتم تهيئة الدفع بعد",
+    "serviceNameNotProvided": "يرجى تزويد اسم الخدمة المطلوبة",
+    "serviceDisabled": "هذه الخدمة معطلة",
+    "paymentOTPCodeLength": "يجب أن يتكون الرمز من 6 أرقام",
+    "paymentNotFound": "عملية الدفع غير موجودة",
+    "invoiceNotFound": "الفاتورة غير موجودة",
+    "serviceExist": "اسم الخدمة موجود بالفعل.",
+    "overDuePaymentTime": "انتهى الوقت المخصص لهذه الدفعة.",
+    "paymentAlreadyVerified": "تم التحقق من هذه الدفعة بالفعل.",
+    "PaymentTimeOver": "انتهت صلاحية التحقق من الدفع. يرجى إعادة عملية الدفع.",
+    "maximumRetriesReaches": "تم الوصول إلى الحد الأقصى من المحاولات. يرجى المحاولة لاحقاً.",
+    "resendWaiting": "يرجى الانتظار {{waitSeconds}} ثانية قبل إعادة الإرسال.",
+
+    //MTN:
+    "noMTNEPaymentFound": "لا يوجد مدفوعات من شركة ام تب ان حالياً.",
+
+    //Syriatel:
+    "syriatelTokenNotFound": "لم يتم العثور على الرمز الحاص بسيرياتيل.",
+    "syriatelPaymentRequestNotFound": "تعذر العثور على طلب الدفع.",
+
+    //
+    "phoneNumberLength": "يجب أن يتكون رقم الهاتف من 10 أرقام ويبدأ بـ 09.",
+    "phoneNumberCountryCode": "يجب استخدام رقم هاتف محمول سوري صحيح.",
+    "tooManyRequests": "عدد كبير جداً من الطلبات. حاول مرة أخرى لاحقاً."
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "error": {
+    // Users:
+    "loginFailure": "Please Try Again Later.",
+    "loginError": "There was an Error while lLgging in the User.",
+    "invalidCredentials": "Invalid Credentials.",
+    "accessForbidden": "Access forbidden. You do not have permission to access this route.",
+    "userNotFound": "User not Found.",
+    "usersNotFound": "There is no Users yet.",
+    "phoneNumberNotValid": "This Phone Number is not Valid.",
+    "phoneNumberExist": "This phone Number you Entered is already in Use.",
+    "phoneNumberNotCorrect": "your Phone Number is not Correct.",
+    "phoneNumberEmpty": "Please Fill the Required Fieled Phone number.",
+    "phoneNumberEmptyModel": "Phone Number Cannot be Empty.",
+    "phoneNumberTypeValidation": "Mobile Number must be only Numbers.",
+    "userNotRegistered": "The Phone Number you Entered is not Registered yet, Please have an Account and Login",
+    "birthDateEmty": "Birthdate Cannot be Empty",
+    "birthDateValidation": "BirthDate must be a Valid Date",
+    "firstNameLength": "Minimum 2 Characters and the minimum is 20 Required in First Name",
+    "firstNameValidation": "First Name can only Contain Letters and Spaces",
+    "firstNameEmpty": "First Name Cannot be Empty",
+    "lastNameLength": "Minimum 2 Characters and the minimum is 20 Required in Last Name",
+    "lastNameValidation": "Last Name can only Contain Letters and Spaces",
+    "lastNameEmpty": "Last Name Cannot be Empty",
+    "normalUserProvinces": "Interest Provinces is required.",
+    "normalUserEventsTypes": "Interest Events Types is required.",
+    "tooYoung": "You must be older to use this service. Please check the minimum age requirement and try again.",
+    "tooOld": "This service is designed for users within a certain age range.",
+    "maleOrFemaleOnly": "You must choose a correct Gender.",
+    "blockedAccount": "Your account is blocked.",
+    "deactivatedAccount": "Your account is deactivated.",
+
+    // Token:
+    "invalidTokenIssuer": "Invalid Token Issuer",
+
+    // Provines:
+    "provincesNotFound": "There is no Provinces yet.",
+
+    // Events:
+    "eventsNotFound": "There is no Events yet.",
+    "eventNotFound": "Cannot Find this Event.",
+    "approveEvent": "This Event is already Approved or not exist.",
+    "Top10Events": "Top 10 Events not Founded.",
+    "eventNameError": "Event Name can only Contain Letters and Spaces.",
+    "eventNameLengthError": "Event Name Cannot be too Short or too Long.",
+    "eventNameEmptyError": "Event Name Cannot be Empty",
+    "eventMainPhotoMissing": "Please add a Main Photo for your Event.",
+    "eventStartDate": "Please add the Event Starting Date.",
+    "validateEventStartDate": "You Cannot Set Start Event Date Before current time.",
+    "applyToEventStartDate": "Please add Apply to Event Starting Date",
+    "validateApplyToEventStartDate": "You Cannot Set Event Starting Date as today or tomorrow or before",
+    "eventEndDate": "please add the Event Ending Date",
+    "validateEventEndDate": "End Event Date must be after Start Event Date.",
+    "applyToEventEndDate": "please add Apply to Event End Date.",
+    "validateApplyToEventEndDate": "End Apply to Event Date must be before Start Event Date.",
+    "eventLocation": "Please add a Location for your Event.",
+    "eventProvince": "Please add a Province for your Event.",
+    "ticketOptionEmpty": "Please add a Ticket Options for your Event.",
+    "eventSeatsValidation": "Seats Quantity must be at Least 1.",
+    "eventDescriptionValidation": "please add a Description for your Event.",
+    "eventTypeDescriptionValidation": "Minimum 3 Characters and the Maximum is 200 Required in the Description.",
+    "eventApprovedBefore": "You have this event before and it is approved.",
+    "eventPreviousUpdateRequest": "You have a previous request to update this event.",
+    "cannotUpdateEvent": "Cannot update this event.",
+    "cannotDeleteStartedEvent": "You Cannot Delete Started Event.",
+    "priceNotZero": "Price must be greater than 0.",
+    "UpdateEventAfterEnd": "Event cannot be modified after Event ends.",
+    "UpdateEventAfterEndReservation": "Event cannot be modified after reservation ends.",
+    "UpdateEventAfterStartReservation": "Event cannot be modified after reservation starts.",
+    "UpdateEventHasPreviousRequest": "Event has a previous request for update.",
+    "eventEndAlready": "This event has already ended.",
+    "eventDeleteStartAlready": "Cannot delete started events.",
+    "eventUpdateAfterDecline": "Event cannot be modified after it is declined.",
+    "eventUpdateAfterApprove": "Event cannot be modified after it is approved.",
+    "eventDescriptionLengthValidation": "the description field must be between 1 & 500 charecter length",
+    "eventTypeRequired": "event Type Field is Required.",
+    "eventExist": "this event already exist.",
+    "startApplyDateNotComeYet": "Start Apply Date Not come yet.",
+    "endApplyDateIsOver": "End Apply Date is over.",
+    "eventApplyAndStartDuration": "end Apply Date must be at least 24 hours before start Event.",
+    "eventApplyDuration": "Apply duration must be more than 24 hours.",
+
+    // Images:
+    "processImage": "Error Happened while Processing the Image.",
+    "notImageFile": "Not an Image. Only JPEG, PNG, and JPG Files are Allowed.",
+
+    // Dashboard:
+    "NotValidEmail": "Email must be from E-Ticket App Domain.",
+    "emailExist": "This E-Mail is already Registered, Please try to Login.",
+    "emailNotFound": "This E-Mail is not Founded.",
+    "emailFieldEmpty": "Please Fill the required field: email.",
+    "passwordFieldEmpty": "Please Fill Password Field.",
+    "oldPasswordFieldEmpty": "Please Fill Old Password Field.",
+    "passwordConfirmFieldEmpty": "Please Fill the required field: password Confirm.",
+    "adminAccountNotExist": "This Account is not Exist.",
+    "adminNotFound": "Admin Account not Found.",
+    "adminsNotFound": "There is no Admins Yet.",
+    "IncorrectEmailOrPassword": "Incorrect Email or Password.",
+    "incorrectPassword": "Incorrect Password",
+    "passwordsNotMatch": "Password and Password Confirm must be equal",
+    "CannotCreateCEO": "You Cannot Create CEO Account with your permissions.",
+    "adminIdRequired": "Id is required",
+    "CannotUpdateCEO": "You cannot update CEO with your Privilage.",
+    "CannotDeleteYourAccount": "You cannot delete your own Account",
+    "CannotDeleteCEO": "You cannot delete CEO with your Privilage.",
+
+    // Supervisor:
+    "usernameEmpty": "username cannot be Empty.",
+    "notValidUserName": "this username is not valid.",
+    "supervisorPasswordEmpty": "password cannot be Empty.",
+    "supervisorProvinceEmpty": "Province cannot be Empty.",
+    "supervisorLocationEmpty": "Location cannot be Empty.",
+    "supervisorWorkInfoEmpty": "Work Info cannot be Empty.",
+    "supervisorEmptyBody": "You Cannot send Empty Request.",
+    "getAllSupervisors": "Error happen while getting all Supervisors.",
+    "getSupervisor": "Supervisor not Found.",
+    "IncorrectSupervisorPassword": "Incorrect Password.",
+    "supervisorNotFound": "Supervisor Account Not Found",
+    "supervisorWorkType": "work type is required.",
+    "updateSupervisor": "cannot update this supervisor Account.",
+    "deleteSupervisorHaveEvents": "Cannot delete a supervisor with active events.",
+    "workDocument": "You need to add The Work Document.",
+    "PreviousUpdateRequest": "you have a previous Update Profile Request.",
+    "incorrectOldPassword": "Incorrect Old Password",
+
+    // Booking:
+    "emptyBooking": "There is no Bookings yet.",
+    "BookingNotFound": "Cannot find this Booking.",
+    "bookingCanceledBefore": "This booking was canceled before.",
+    "BookingNotPending": "This Booking is not pending, already paid or canceled.",
+    "BookingIsPaidSupervisor": "Booking is paid, you cannot cancel it, contact the support team.",
+    "invalidAmmount": "You need to match tickets count with names.",
+    "notEnoughTickets": "Not enough tickets available: only {{available}} ticket{{plural}} available, but you requested {{requested}} ticket{{pluralRequested}}.",
+    "bookingPaymentBeforeApprove": "Booking requires approval first.",
+    "paymentAlreadyProcessed": "Payment already processed.",
+    "BookingCreationFailed": "Cannot create this booking.",
+    "PaymentProcessingFailed": "Cannot resolve this payment.",
+    "womenOnly": "This event is only for Womens.",
+    "menOnly": "This event is only for Men.",
+    "bookIdRequired": "Book Id is required.",
+
+    // Ticket:
+    "emptyTicket": "There are no Tickets yet.",
+    "ticketAlreadyInvalid": "This ticket is already invalid.",
+    "ticketNotFound": "Cannot find this Ticket.",
+    "usernameFormat": "Username must be 2–50 characters, English/Arabic letters and spaces only.",
+
+    // Passwords:
+    "PasswordsNotMatched": "Your Password not Match Password Confirm Field.",
+    "verifyPassword": "Your Password Must Conatin Small Letters, Capital Letters, Numbers, Symbols and it Must be 10 Charecters at Least.",
+    "missingPasswordField": "your are missing a filed for password",
+    "passwordLengthError": "Password must be between 10 and 25 characters.",
+
+    // MiddleWares:
+    "noPermission": "You do not have Permission to Access this Resource.",
+
+    // OTP:
+    "OTPLength": "OTP must be 6 Digits.",
+    "OTPValidation": "your Code is not Correct.",
+    "validationError": "There is Unknown Error in Validation.",
+    "invalidToken": "Invalid Token, Please Login Again.",
+    "tokenExpired": "Your Token has Expired, Please Login Again.",
+    "OTPWaitTime": "Please wait before requesting another OTP.",
+    "CannotSendOTP": "Cannot send otp message.",
+    "invalidOTPCode": "Invalid OTP Code.",
+    "OTPCodeExpired": "OTP Code has expired.",
+    "OTPNotFound": "OTP Code Not Found.",
+
+    // Complains:
+    "emptyComplains": "There is no Complains Yet",
+    "emptyComplainsForUser": "There is no Complains Yet for this User",
+    "emptyComplainsForEvent": "There is no Complains Yet for this Event",
+    "emptyComplainsOtherType": "You cannot laeve Complain Empty.",
+    "duplicateComplain": "You cannot add more than one Complain for each Event",
+
+    //Complain Types:
+    "emptyComplainTypes": "no Complain Type found",
+
+    //Event Types:
+    "emptyEventTypes": "no Event Type found",
+
+    // Favourite:
+    "emptyFavourite": "There is nothing on Favourite list Yet.",
+
+    // Suggestions:
+    "emptySuggestions": "There is no Suggestions Yet",
+    "duplicateSuggestions": "You cannot Suggest more than one Suggestion for each Event",
+
+    // Agent:
+    "agentNameRequired": "Agent must have a Name.",
+    "agentNameMinLength": "Agent Name must be at least 2 charecters.",
+    "agentNameMaxLength": "Agent Name must be at max 50 charecters..",
+    "agentNameRegex": "Agent Name can contain only letterr and spaces.",
+    "agentProvinceRequired": "Province is Required for Agent.",
+    "agentLocationRequired": "location is Required for Agent.",
+    "agentMobileNumberRequired": "Mobile Number is required for Agent.",
+    "agentExists": "Agent with this mobile number Already exist.",
+    "agentUpdateFailed": "Cannot update this Agent.",
+    "agentDeleteFailed": "Cannot delete this Agent.",
+    "agentCreationFailed": "Cannot create this Agent.",
+
+    // Scanner User:
+    "scannerNameIsEmpty": "Scanner user name Cannot be Empty.",
+    "passwordIsEmpty": "Scanner user password Cannot be Empty.",
+    "scannerUserserNotRegistered": "this Scanner User is not registered yet.",
+    "DeactivatedScannerUser": "this account is deactivated",
+    "scannerUserPasswordEmpty": "password for scanner user cannot be empty.",
+    "IncorrectScannerPassword": "Incorrect Password.",
+
+    // Notifications:
+    "NotificationTitle": "Notification Title is Required.",
+    "NotificationBody": "Notification Body is Required.",
+    "emptyNotifications": "there is no notifications yet.",
+
+    // Others:
+    "pageNotFound": "Page not Found ..!",
+    "someThingWrong": "Something Went Very Wrong",
+    "messageReply": "Wait for a response before sending another message.",
+
+    // Rate Event:
+    "rateEventValues": "Rating must be between 1 and 5",
+
+    // Discount Code:
+    "usageLimitMin": "The usage limit cannot be less than one.",
+    "discountCodeMaxUsageReached": "The discount code has reached its maximum usage.",
+    "discountCodeNotFound": "cannot find the discount code",
+    "startFromFuture": "start date for discount code cannot be before now.",
+    "discountCodeRequired": "Discount Code is Required.",
+    "discountCodeLength": "Discount Length must be between 3 to 20 charecters.",
+    "discountCodeFormat": "Discount Code can only be charecters, numbers and these symbols (@ # $ % &).",
+    "discountValueMin": "Discount minmum value is 1.",
+    "discountPercentRange": "Discount Percent Range must bebetween 1 and 100.",
+    "endAtAfterStartFrom": "end of Discount Code must be after Discount Code Beginning.",
+
+    // Payment:
+    "createInvoiceError": "something get wrong with Create Invoice",
+    "getInvoiceError": "something get wrong with get Invoice",
+    "initPaymentError": "something get wrong with Initilize Payment",
+    "confirmPaymentError": "something get wrong with confirm Payment",
+    "paymentMethodNotFound": "there is no payment method with this name",
+    "paymentNotInitialized": "this payment is not initialized yet",
+    "serviceNameNotProvided": "Please Provide the sevice name needed",
+    "serviceDisabled": "This service is disabled",
+    "paymentOTPCodeLength": "Code must be 6 digits",
+    "paymentNotFound": "This Payment is not found",
+    "invoiceNotFound": "Invoice not found",
+    "serviceExist": "Service name already exists",
+    "overDuePaymentTime": "The time for this payment is over.",
+    "paymentAlreadyVerified": "This payment is already verified.",
+    "PaymentTimeOver": "Payment verification has expired. Please redo the payment.",
+    "maximumRetriesReaches": "Maximum retries reached. Please try again later.",
+    "resendWaiting": "Please wait {{waitSeconds}} seconds before resending.",
+
+    //MTN:
+    "noMTNEPaymentFound": "No Payment Found On MTN Payments.",
+
+    //Syriatel:
+    "syriatelTokenNotFound": "Syriatel token not found",
+    "syriatelPaymentRequestNotFound": "cannot find the payment request",
+
+    //
+    "phoneNumberLength": "Phone Number must be 10 digits and start with 09",
+    "phoneNumberCountryCode": "you must use valid mobile number (syrian)",
+    "tooManyRequests": "Too many requests. Try again later."
+  }
+}

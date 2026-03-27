@@ -1,0 +1,68 @@
+import express, { Router } from 'express';
+
+import AuthRouter from './auth.routes';
+import SupervisorRouter from './supervisor.routes';
+import ComplainRouter from './complain.routes';
+import ComplainTypeRouter from './complainType.routes';
+import DashBoardRouter from './dashboard.routes';
+import DiscountRouter from './discount.routes';
+import EventRouter from './event.routes';
+import EventTypeRouter from './eventType.routes';
+import FAQRouter from './FAQ.routes';
+import FavouriteActivityRouter from './favourite.routes';
+import ProvinceRouter from './province.routes';
+import NormalUserRouter from './normalUser.routes';
+import PrivacyPolicyRouter from './privacyPolicy.routes';
+import ScannerUserRouter from './scannerUser.routes';
+import TermsAndConditionRouter from './termsAndCondition.routes';
+import TicketRouter from './ticket.routes';
+import SuggestionRouter from './suggestions.routes';
+import MessageRouter from './message.routes';
+import RequestRouter from './request.routes';
+import AboutUsRouter from './aboutUs.routes';
+import AgentRouter from './agent.routes';
+import bookTicketRouter from './bookTicket.routes';
+import pushRouter from './push.routes';
+import NotificationRouter from './notification.routes';
+import rateEventRouter from './rateEvent.routes';
+import AllPaymentRouter from './allPayment.routes';
+import MTNEPaymentRouter from './MTNEPayment.routes';
+import SyriatelEPaymentRouter from './SyriatelEPayment.routes';
+import OtpRouter from './otp.routes';
+import ReportRouter from './report.routes';
+
+const MainRouter: Router = express.Router();
+
+MainRouter.use('/auth', AuthRouter);
+MainRouter.use('/normalUser', NormalUserRouter);
+MainRouter.use('/supervisor', SupervisorRouter);
+MainRouter.use('/dashboard', DashBoardRouter);
+MainRouter.use('/scannerUser', ScannerUserRouter);
+MainRouter.use('/event', EventRouter);
+MainRouter.use('/eventType', EventTypeRouter);
+MainRouter.use('/ticket', TicketRouter);
+MainRouter.use('/discount', DiscountRouter);
+MainRouter.use('/favourite', FavouriteActivityRouter);
+MainRouter.use('/FAQ', FAQRouter);
+MainRouter.use('/privacyPolicy', PrivacyPolicyRouter);
+MainRouter.use('/termsAndCondition', TermsAndConditionRouter);
+MainRouter.use('/Province', ProvinceRouter);
+MainRouter.use('/complain', ComplainRouter);
+MainRouter.use('/complainType', ComplainTypeRouter);
+MainRouter.use('/Suggestion', SuggestionRouter);
+MainRouter.use('/message', MessageRouter);
+MainRouter.use('/request', RequestRouter);
+
+MainRouter.use('/aboutUs', AboutUsRouter);
+MainRouter.use('/agent', AgentRouter);
+MainRouter.use('/bookTicket', bookTicketRouter);
+MainRouter.use('/push', pushRouter);
+MainRouter.use('/notification', NotificationRouter);
+MainRouter.use('/rate', rateEventRouter);
+MainRouter.use('/allPayment', AllPaymentRouter);
+MainRouter.use('/MTNEPayment', MTNEPaymentRouter);
+MainRouter.use('/SyriatelEPayment', SyriatelEPaymentRouter);
+MainRouter.use('/otp', OtpRouter);
+MainRouter.use('/report', ReportRouter);
+
+export default MainRouter;

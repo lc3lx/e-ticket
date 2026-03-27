@@ -1,0 +1,16 @@
+# Ignore all node_modules folders
+node_modules/
+
+# Ignore environment variables file
+config.env
+
+# Ignore Dev-Data Folder Cause it is only for Dev Purposes
+dev-data/
+
+# Ignore dist Folder
+dist/
+
+# Ignore config.txt file that contain configs to test
+config.txt
+
+test.js

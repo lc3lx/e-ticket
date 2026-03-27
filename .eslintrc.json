@@ -1,0 +1,54 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["airbnb", "prettier", "plugin:@typescript-eslint/recommended"],
+  "plugins": ["prettier", "@typescript-eslint"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "crlf"
+      }
+    ],
+    "padding-line-between-statements": [
+      "warn",
+      { "blankLine": "always", "prev": "import", "next": "*" },
+      { "blankLine": "any", "prev": "import", "next": "import" },
+      { "blankLine": "any", "prev": "*", "next": "export" }
+    ],
+    "import/no-unresolved": "off",
+    "import/extensions": [
+      "warn",
+      "always",
+      {
+        "ts": "never",
+        "js": "always"
+      }
+    ],
+    "spaced-comment": "off",
+    "max-len": ["error", { "code": 120 }],
+    "no-console": "warn",
+    "consistent-return": "off",
+    "func-names": "off",
+    "object-shorthand": "off",
+    "no-process-exit": "off",
+    "no-param-reassign": "off",
+    "no-return-await": "off",
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "no-unused-vars": ["off"],
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "req|res|next|val|synchronizeDatabase" }],
+    "no-shadow": ["off"],
+    "@typescript-eslint/no-shadow": [
+      "error",
+      {
+        "ignore": ["sequelize"]
+      }
+    ]
+  }
+}

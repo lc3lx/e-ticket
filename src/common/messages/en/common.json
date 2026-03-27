@@ -1,0 +1,35 @@
+{
+  "common": {
+    // User:
+    "loginSuccess": "User Logged in Successfully",
+    "registerSuccess": "User registered successfully",
+    "userFound": "User Found Successfully",
+    "createUser": "User Created Successfully.",
+    "readUser": "User Data Retrieved Successfully.",
+    "updateUser": "User Updated Successfully.",
+    "deleteUser": "User Deleted Successfully.",
+    "sortUser": "Users Sorted Successfully.",
+    "uploadUser": "User Profile Picture Uploaded Successfully.",
+    "taskDone": "Task done successfully.",
+
+    // Notifications:
+    "approveEventTitle": "Event Approved.",
+    "approveEventBody": "Your Event Is Approved and it is appear to users on E-Ticket App.",
+    "declineEventTitle": "Event Declined.",
+    "declineEventBody": "Your Event Is Declined, For more info please contact with us.",
+    "suspendEventTitle": "Your Event is suspended.",
+    "suspendEventBody": "Your Event Is Suspended, For more info please contact with us.",
+    "unSuspendEventTitle": "Your Event is Live.",
+    "unSuspendEventBody": "Your Event Is not suspended any more",
+    "adminCancelBookingTitle": "Your Booking is Canceled.",
+    "adminCancelBookingBody": "Your Booking is Canceled, for more info please contact with us.",
+    "supervisorCancelBookingTitle": "Your Booking is Canceled.",
+    "supervisorCancelBookingBody": "Your Booking is Canceled By Event Supervisor.",
+    "approveBookingTitle": "Your Booking is Approved.",
+    "approveBookingBody": "Your Booking is Approved By Event Supervisor.",
+
+    //OTP:
+    "sendOTP": "Your Verification Code is: {{Code}}",
+    "sendSupervisorSignUpMessage": "Your Account is: {{supervisor}}\nPassword: {{supervisorPassword}}\nScanner User: {{scannerUser}}\nScanner User Password: {{scannerUserPassword}}"
+  }
+}

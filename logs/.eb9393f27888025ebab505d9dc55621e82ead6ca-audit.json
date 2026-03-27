@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 120
+    },
+    "auditLog": "C:\\Users\\BLACK_SNAKE\\Desktop\\for Me\\My Work\\Freelance\\Programming\\E-Tickets\\Back-End Code\\logs\\.eb9393f27888025ebab505d9dc55621e82ead6ca-audit.json",
+    "files": [
+        {
+            "date": 1762882433141,
+            "name": "C:\\Users\\BLACK_SNAKE\\Desktop\\for Me\\My Work\\Freelance\\Programming\\E-Tickets\\Back-End Code\\logs\\E-Tickets-2025-11-11.log",
+            "hash": "9a8eafc6042d4694d272bd1fd6538375d51671b51de0637d6765eb5123b47071"
+        }
+    ],
+    "hashType": "sha256"
+}
