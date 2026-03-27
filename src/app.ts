@@ -10,6 +10,7 @@ import cookieParser from 'cookie-parser';
 import { initI18n, languageMiddleware, errorMessage } from './modules/i18next.config';
 import AppError from './utils/AppError.js';
 import MainRouter from './routes/index.js';
+import OtpRouter from './routes/otp.routes.js';
 import globalErrorHandler from './controllers/error.controller.js';
 import { requestLogger } from './middlewares/requestLogger.middleware';
 
@@ -43,6 +44,7 @@ initI18n();
 app.use(languageMiddleware);
 
 app.use('/api', MainRouter);
+app.use('/otp', OtpRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(errorMessage('error.pageNotFound'), 404));
