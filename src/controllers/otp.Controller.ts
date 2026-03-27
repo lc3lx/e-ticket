@@ -105,5 +105,21 @@ class OTPController {
     };
     res.status(200).json(successResponse);
   });
+
+  public getWhatsAppQrImage = catchAsync(async (_req: Request, res: Response, next: NextFunction) => {
+    const status = await OTPService.getWhatsAppWebStatus(next);
+    const qrCode = status?.qrCode;
+
+    if (!qrCode || typeof qrCode !== 'string' || !qrCode.startsWith('data:image/png;base64,')) {
+      return next(new AppError('QR code is not available yet', 404));
+    }
+
+    const base64 = qrCode.replace('data:image/png;base64,', '');
+    const imgBuffer = Buffer.from(base64, 'base64');
+
+    res.setHeader('Content-Type', 'image/png');
+    res.setHeader('Cache-Control', 'no-store');
+    res.status(200).send(imgBuffer);
+  });
 }
 export default new OTPController();

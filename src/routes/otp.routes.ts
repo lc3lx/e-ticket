@@ -10,5 +10,6 @@ OtpRouter.post('/confirmOTP', otpController.confirmOTP);
 OtpRouter.post('/resendOTP', otpController.resendCode);
 
 OtpRouter.get('/whatsapp/status', otpController.getWhatsAppWebStatus);
+OtpRouter.get('/whatsapp/qr-image', otpController.getWhatsAppQrImage);
 
 export default OtpRouter;
