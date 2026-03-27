@@ -2,7 +2,7 @@ import { NextFunction } from 'express';
 import { Sequelize, Transaction } from 'sequelize';
 import crypto from 'crypto';
 import QRCode from 'qrcode';
-import { Client, ClientSession, LegacySessionAuth } from 'whatsapp-web.js';
+import { Client, LocalAuth } from 'whatsapp-web.js';
 import { sequelize } from '../DB/sequelize';
 import AppError from '../utils/AppError';
 import { commonMessage, errorMessage } from '../modules/i18next.config';
@@ -56,12 +56,8 @@ class OTPService {
     this.waInitPromise = (async () => {
       const storedSession = await this.getOrCreateWaSession();
 
-      const authStrategy = new LegacySessionAuth({
-        session: (storedSession.sessionData as ClientSession | undefined) || undefined,
-      });
-
       this.waClient = new Client({
-        authStrategy,
+        authStrategy: new LocalAuth({ clientId: this.waSessionKey }),
         puppeteer: {
           headless: true,
           args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -77,9 +73,10 @@ class OTPService {
         });
       });
 
-      this.waClient.on('authenticated', async (session) => {
+      this.waClient.on('authenticated', async () => {
         await storedSession.update({
-          sessionData: session as Record<string, any>,
+          // LocalAuth stores the actual session on disk; DB keeps only lightweight status metadata.
+          sessionData: { provider: 'LocalAuth', authenticatedAt: new Date().toISOString() },
         });
       });
 
